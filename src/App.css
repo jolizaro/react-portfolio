@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   padding: 100px 0;
+  min-height: calc(100vh - 150px);
 }
 
 #yellow-text {
@@ -16,7 +17,6 @@ footer{
   display:flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   bottom: 0; 
   width: 100%; 
 }
@@ -80,9 +80,41 @@ footer{
   text-decoration: none;
 }
 
+.project-card { 
+  width: 18rem;
+  margin:20px;
+  justify-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-icons {
+  text-decoration: none;
+  font-size: 50px;
+  margin: 30px;
+  color: #0e76a8;
+}
+
+#yellow-icon {
+  color: #e1ad01
+}
+
 @media only screen and (max-width: 800px) {
   .hero {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .project-card {
+    width: 100%;
+    margin: 10px 0px; 
+  }
+  .home-page, .portfolio-page {
+    width: 95%;
   }
 }
 

@@ -8,7 +8,7 @@ const Home = () => {
         <img src='/Joliza.jpg' alt='Joliza'/>
         <div className="hero-text">
           <h1>Hi! Im Joliza!</h1>
-          <p> I am a software engineer. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p> I am a full-stack software engineer who enjoys working with React for frontend design. I also love designing backend data structures and am pursuing a career as a freelance web developer. I'd love to hear from you regarding the needs of your small business!</p>
           <div className="portfolio-btn"> 
           <Link to="/portfolio">Portfolio</Link>
           </div>

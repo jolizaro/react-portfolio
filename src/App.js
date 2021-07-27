@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router style={{minHeight:'100vh', position:'relative'}}>
+    <Router>
       <Header />
       <div className="App">
         <Route path="/" exact component = {Home} />

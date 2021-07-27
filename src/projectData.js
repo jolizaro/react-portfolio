@@ -1,19 +1,19 @@
 const projects = [
   {
     title: 'FashApp',
-    desc: 'Yelp for the fashionista! Search our database of brands to see customer reviews and details. Create an account to add your own reviews and even add new brands to our database! Built with React, MongoDB, Express, Bootstrap, Node.js.',
+    desc: 'Yelp for the fashionista! Search our database of brands to see customer reviews and details, and add your own. Built with React, MongoDB, Express, Bootstrap, Node.js.',
     link: 'https://fashapp-ss.herokuapp.com/',
     img: '/Fashapp_img.PNG'
   },
   {
     title: 'Employee Directory',
     desc: 'A sortable table of employees, built using React, that can also be filtered by location.',
-    link: '',
+    link: 'https://jolizaro.github.io/employee-directory/',
     img: '/coding-quiz.PNG'
   },
   {
     title: 'Bikr',
-    desc: 'Sell and purchase bicycles from neighbors nearby',
+    desc: 'Sell and purchase bicycles from neighbors nearby. Built using Handlebars, Express, Node.js, and MySQL.',
     link: 'https://desolate-basin-02888.herokuapp.com/',
     img: '/bikr_image2.png'
   },
@@ -25,20 +25,20 @@ const projects = [
   },
   {
     title: 'Workday Scheduler',
-    desc: 'Use this app to plan your daily rhythms and keep track of events',
-    link: '',
+    desc: 'Use this app to plan your daily rhythms and keep track of events. Built using HTML, CSS and jQuery.',
+    link: 'https://jolizaro.github.io/third-party-API-hw/',
     img: 'workday-scheduler.gif'
   },
   {
     title: 'PokeTeams',
     desc: 'Take a quiz to be assigned a unique team of pokemon!',
-    link: '',
+    link: 'https://juiceten.github.io/Pokemon-Battle-Theme/',
     img: '/Pokemonproj.PNG'
   },
   {
     title: 'JavaScript Coding Quiz',
     desc: 'Test your knowledge of JavaScript basics!',
-    link: '',
+    link: 'https://jolizaro.github.io/Javascript-Quiz-HW/',
     img: '/coding-quiz.PNG'
   },
 ]
